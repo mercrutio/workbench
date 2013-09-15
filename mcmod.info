@@ -2,13 +2,13 @@
 {
   "modid" : "mercrutiosWorktable",
   "name" : "Mercrutio's Worktable",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "url" : "",
   "credits" : "created by mercrutio",
   "authors": [
     "mercrutio"
   ],
-  "description": "Improved crafting table with ability to store items and blocks.  It is also capable of doubling with a second adjacent block to create more room and a 4x4 crafting workspace.",
+  "description": "4x4 Worktable, simple Processor, simple power transmission.",
   "logoFile" : "",
   "updateUrl" : "",
   "parent" : "",

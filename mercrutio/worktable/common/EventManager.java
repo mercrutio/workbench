@@ -2,6 +2,7 @@ package mercrutio.worktable.common;
 
 import java.util.Random;
 
+import mercrutio.worktable.common.block.BlockManager;
 import net.minecraft.block.Block;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
@@ -23,6 +24,9 @@ public class EventManager implements IWorldGenerator {
 	
 	private void generateSurface(World world, Random random, int i, int j) {
 		this.addOreSpawn(BlockManager.copper, world, random, i, j, 16, 16, 5 + random.nextInt(5), 10, 15, 75);
+		this.addOreSpawn(BlockManager.lead, world, random, i, j, 16, 16, 5 + random.nextInt(5), 10, 15, 75);
+		this.addOreSpawn(BlockManager.silver, world, random, i, j, 16, 16, 5 + random.nextInt(5), 10, 15, 75);
+		this.addOreSpawn(BlockManager.uranium, world, random, i, j, 16, 16, 5 + random.nextInt(5), 10, 15, 75);
 	}
 
 	private void generateNether(World world, Random random, int i, int j) {
